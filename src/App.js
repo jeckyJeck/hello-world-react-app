@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+// import Toolbar from './components/toolbar'
+// import MenuBtn from './components/btn_menu'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {/* <Toolbar>
+          <MenuBtn/>
+        </Toolbar> */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
